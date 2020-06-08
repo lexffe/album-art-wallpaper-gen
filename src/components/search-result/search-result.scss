@@ -1,0 +1,55 @@
+section.album {
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+  padding: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 1em;
+
+  div.details {
+    padding-left: 1em;
+    
+    * {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  img {
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+  }
+
+  div.resolutions {
+    
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    button.resolution {
+      border: 1px solid #c0c0c0;
+      border-radius: 3px;
+      width: 8ch;
+      background-color: #ffffff;
+      padding: 0.5em 0;
+      float: left;
+      margin-left: 0.5em;
+    }
+
+    button.resolution:hover {
+      background-color: #f0f0f0;
+    }
+    
+    button.rstart {
+      margin-left: 0;
+    }
+
+  }
+
+}
+
